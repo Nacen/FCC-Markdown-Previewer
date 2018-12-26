@@ -1,0 +1,36 @@
+#editor {
+  resize: none;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 4.4rem);
+}
+
+.editor-container, .preview-container {
+  flex-basis: 50%;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#editor, #preview {
+  padding: 0.6em;
+  border-radius: 3px;
+  overflow: auto;
+  flex: 1 1 0;
+}
+
+#preview {
+  background-color: #fff;
+  font-size: 1.2rem;
+}
+
+.label {
+  color: #fff;
+  text-align: center;
+}
+
